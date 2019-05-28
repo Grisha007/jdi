@@ -404,14 +404,9 @@ body {
 
 .company_data {
     display: flex;
-    justify-content: space-between;
     width: 686px;
     box-sizing: border-box;
     border-bottom: $separator;
-
-    p {
-        margin-top: 64px;
-    }
 }
 
 .company_data:hover {
@@ -419,6 +414,7 @@ body {
 }
 
 .company_name {
+    flex: 0 0 40%;
     color: #a6a6a6;
     font-family: $roboto-font;
     font-size: 16px;
@@ -427,6 +423,7 @@ body {
 }
 
 .company_url {
+    flex: 0 0 50%;
     color: #56819f;
     font-family: $roboto-font;
     font-size: 16px;
@@ -435,7 +432,7 @@ body {
 }
 
 .board_images {
-    margin-top: 63px;
+    display: flex;
 }
 
 .company_board_button {
